@@ -8,7 +8,7 @@ int main (int argc, char** argv)
            
     for (x=0;x<10;x++)
     {
-        printf("Introduzca número\n");
+        printf("Introduzca numero  ");
         scanf("%d",&tabla[x]);
     }
            
@@ -27,8 +27,9 @@ int main (int argc, char** argv)
            
     printf("Suma: %d\n",sum);
     printf("Resta: %d\n",res);
-    printf("Multiplicación: %d\n",mul);
+    printf("Multiplicacion: %d\n",mul);
     printf("División: %d\n",div);
    
     return 0;
 }
+
