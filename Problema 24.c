@@ -5,7 +5,6 @@ int main (int argc, char** argv)
 {
 	int sum=0,x;
     char frase[50];
-   
     printf("Introduzca una frase: ");
     gets(frase);
    
@@ -33,9 +32,7 @@ int main (int argc, char** argv)
       }
      
     }
-   
     printf("\n\nEn la frase hay %d vocales\n\n",sum);
-    printf("\n\n");
         
     return 0;
 }

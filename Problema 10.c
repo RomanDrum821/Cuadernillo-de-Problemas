@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+float area(float);
+
 int main (int argc, char** argv)
 {
 	float arista;
@@ -16,9 +18,14 @@ int main (int argc, char** argv)
         scanf( "%f", &arista );
     }
 
-    printf( "\n   El Area de un cubo de arista %f es: %f", arista, 6 * pow( arista, 2 ) );
+    printf( "\n   El Area de un cubo de arista %f es: %f", arista, area(arista) );
 	
 	
 	return 0;
 }
 
+float area(float arista)
+{
+	float res= 6 * pow( arista, 2 ) ;
+	return res;
+}
